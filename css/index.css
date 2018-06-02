@@ -1,0 +1,18 @@
+/* The animation Code */
+@keyframes example
+{
+	from
+	{
+		background-color:cyan;
+	}
+	to
+	{
+		background-color:yellow;
+	}
+}
+body 
+    {
+    	width: 100px;
+    	height: 100px;
+    	animation-name: example;
+    }
